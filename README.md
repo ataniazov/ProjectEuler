@@ -5,4 +5,4 @@ https://projecteuler.net/
 
 My Friend Key: 1078310_FliApH8mFqZs1ZB68ondFNZKt27kDNW8
 
-![alt text](https://projecteuler.net/profile/ata.niazov.png "Logo Title Text 1")
+![alt text](https://projecteuler.net/profile/ata.niazov.png "ProjectEuler.net")
