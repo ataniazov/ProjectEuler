@@ -1,8 +1,5 @@
 package com.delta.euler;
 
-import java.math.BigDecimal;
-import java.math.BigInteger;
-
 /**
  * Created by delta on 1/2/17.
  * <p>
