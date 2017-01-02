@@ -245,13 +245,14 @@ public class LargeSum {
 
         strB = zeros + strB;
 
+        // Calculations
 //        System.out.println(strA + " " + strB);
         int carry = 0;
         for (int i = strA.length() - 1; i >= 0; i--) {
             int sum = Character.getNumericValue(strA.charAt(i)) + Character.getNumericValue(strB.charAt(i)) + carry;
             if (sum > 9) {
+                carry = sum / 10;
                 sum %= 10;
-                carry = 1;
             } else {
                 carry = 0;
             }
@@ -261,8 +262,6 @@ public class LargeSum {
         if (carry != 0) {
             result = String.valueOf(carry) + result;
         }
-
         return result;
     }
-
 }
