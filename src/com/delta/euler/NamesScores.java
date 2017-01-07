@@ -23,7 +23,8 @@ public class NamesScores {
 
         String[] namesArry;
 
-        try (BufferedReader br = new BufferedReader(new FileReader("/home/delta/source/git/ProjectEuler/src/com/delta/euler/resources/p022_names.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("/home/delta/IdeaProjects/ProjectEuler/src/com/delta/euler/resources/p022_names.txt"))) {
+
             namesArry = br.readLine().split(fileSplitBy);
             Arrays.sort(namesArry);
 
